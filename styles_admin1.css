@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(imagenes/vecteezy_pink-red-beautiful-spring-flower-bloom-branch-background-with-free-copy-space-for-greeting-card-or-environment-cover-page-template-web-banner-and-header_2885317.jpg);
+}
+
+.navbar {
+    background-color: black;
+    color: #fff;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar img {
+    height: 40px;
+    margin-right: 20px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.navbar a.active {
+    border-bottom: 2px solid #fff;
+}
+
+.container {
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+#misReservas {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#listaReservas {
+    margin-top: 20px;
+}
+
+.reserva {
+    background: #fafafa;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.reserva h3 {
+    margin: 0 0 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+.reserva p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.reserva button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+}
+
+.reserva button:hover {
+    background-color: #0056b3;
+}
+
+
+#message-container {
+    display: none;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    padding: 15px;
+    z-index: 1000;
+}
+
+#message-box {
+    padding: 10px;
+}
+
+#message-box.error {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+#accept-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#accept-button:hover {
+    background-color: #0056b3;
+}
+
+
+@media (max-width: 768px) {
+    .navbar a {
+        margin: 0 10px;
+        padding: 8px 10px;
+    }
+
+    .reserva {
+        padding: 10px;
+    }
+
+    .reserva button {
+        padding: 6px 10px;
+        font-size: 14px;
+    }
+}

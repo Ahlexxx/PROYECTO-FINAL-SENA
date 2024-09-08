@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    background-image: url(imagenes/vecteezy_pink-red-beautiful-spring-flower-bloom-branch-background-with-free-copy-space-for-greeting-card-or-environment-cover-page-template-web-banner-and-header_2885317.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0px;
+}
+
+.navbar img {
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 11px; 
+}
+
+.navbar img {
+    width: 90px; 
+    height: auto;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: black;
+}
+
+.navbar a {
+    float: right;
+    display: block;
+    color: #a098a3;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    margin-top: 13px;
+    margin-right: 13px;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.navbar a.agenda {
+    border: 2px solid white;
+    border-radius: 9px;
+}
+.navbar a:agenda {
+    border-color: red; 
+}
+
+.container select,
+.container input[type="date"],
+.container input[type="time"] {
+    width: 100%;
+    max-width: 350%; 
+    padding: 10px;
+    box-sizing: border-box; 
+    margin-bottom: 15px; 
+}
+
+.container .btn-agendar,
+.container .btn-cancelar {
+    width: 100%;
+    max-width: 350%; 
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.container h2 {
+    text-align: center;
+}
+
+.container label {
+    padding-top: 1px;
+    padding-bottom: 2px;
+}
+
+.form-title {
+    margin-bottom: 20px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+label {
+    display: block;
+}
+
+select, input {
+    width: 93%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    width: 90px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #d9534f;
+    margin-top: 9px;
+}
+
+.btn-agendar {
+    background-color: #5cb85c;
+    color: white;
+}
+
+.btn-cancelar {
+    background-color: #d9534f;
+    color: white;
+}
+
+.reserva {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.reserva h3 {
+    margin: 0;
+}
+
+.reserva p {
+    margin: 0;
+}
+
+.logo {
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 11px; 
+}
+
+.logo img {
+    width: 90px; 
+    height: auto;
+}
+
+
+
+

@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(imagenes/vecteezy_pink-red-beautiful-spring-flower-bloom-branch-background-with-free-copy-space-for-greeting-card-or-environment-cover-page-template-web-banner-and-header_2885317.jpg);
+} 
+
+.navbar {
+    background-color: black;
+    color: #fff;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar img {
+    height: 40px;
+    margin-right: 20px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.navbar a.active {
+    border-bottom: 2px solid #fff;
+}
+
+.container {
+    padding: 20px;
+}
+
+.dashboard-sections {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.section { 
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    flex: 1 1 30%;
+    max-width: 30%;
+}
+
+.section h2 {
+    margin-top: 0;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #218838;
+}
